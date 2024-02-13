@@ -11,11 +11,7 @@ source ~/.bashrc
 
 conda create --name xyz python=3.9 -y
 screen -S myScreen
-conda active xyz
 
-conda install -c conda-forge notebook -y
-conda install -c conda-forge nb_conda_kernels -y
-conda install nb_conda -y
 
 
 
